@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
 
-    <arg name="autonomous_drive" default="true"/>
+    <arg name="autonomous_drive" default="false"/>
 
     <node pkg="turtlesim" type="turtlesim_node" name="myturtle">
         <remap from="/turtle1/cmd_vel" to="/cmd_vel"/>
